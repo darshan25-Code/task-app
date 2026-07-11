@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json());
 app.use(cookieParser())
 app.use(cors({
-     origin: "https://task-app-gilt-nu.vercel.app",
+     origin: "https://taskhub-mern.vercel.app",
     credentials: true,
 }));
 
