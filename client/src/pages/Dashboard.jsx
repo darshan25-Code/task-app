@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import TaskCard from "../components/Taskcard";
+import TaskCard from "../components/TaskCard";
 import TaskForm from "../components/TaskForm";
 import { toast } from "react-toastify";
 
