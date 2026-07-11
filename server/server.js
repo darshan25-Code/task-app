@@ -19,6 +19,10 @@ app.use('/api/tasks',taskRoutes)
 
 connectDB()
 
+app.get("/", (req, res) => {
+  res.send("Task Manager App is Running...");
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT,()=>{
     console.log(`server is Running on ${PORT}`);
